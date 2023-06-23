@@ -1,0 +1,85 @@
+.stop-shop {
+  background-image: url(../images/shop-bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shop-container {
+  padding: 130px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shop-sup-title {
+  font-family: "Orbitron-400";
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #57b8ff;
+  gap: 5px;
+  margin-bottom: 22px;
+}
+
+.shop-title {
+  width: 716px;
+  height: 148px;
+
+  font-family: "Orbitron-400";
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.shop-sub-title {
+  width: 698px;
+  height: 64px;
+
+  font-family: "Orbitron-400";
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #dfdfdfcc;
+  margin-bottom: 64px;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.shop-item {
+  width: 642.45849609375px;
+  height: 212px;
+  border-radius: 20px;
+  background: #ffffff26;
+  margin-bottom: 32px;
+  padding: 35px 87px;
+}
+
+.shop-item ul li {
+  list-style-image: url(../images/list-icon.svg);
+}
+.shop-item ul li h2 {
+  font-family: "Orbitron-400";
+  font-size: 32px;
+
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 19px;
+  color: #ffffff;
+}
+.shop-item ul li p {
+  font-family: "Orbitron-400";
+  font-size: 18px;
+
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dfdfdfcc;
+}

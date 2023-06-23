@@ -1,0 +1,115 @@
+.header {
+  background-image: linear-gradient(to right, #000000 50%, #57b8ff 50%);
+}
+
+.nav {
+  padding: 20px p0;
+}
+.nav-container,
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  gap: 60px;
+}
+.list-item .item-link {
+  font-family: "Orbitron-400";
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+.nav-btns {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.dark-light {
+  border: none;
+}
+.dark-light img {
+  border: none;
+}
+.btn-contact {
+  width: 178px;
+  height: 62px;
+  flex-shrink: 0;
+  border: 1px solid #fff;
+  background: transparent;
+  color: white;
+}
+
+.light {
+  background-color: white;
+}
+
+.light * {
+  color: black !important;
+}
+
+/* nav end */
+
+/* home styles begim */
+
+.home-container {
+  display: flex;
+  padding: 250px 0;
+}
+.home-text {
+  width: 50%;
+}
+.home-sup-title {
+  display: flex;
+  align-items: center;
+  color: #57b8ff;
+  font-size: 16px;
+  gap: 5px;
+  font-family: "Orbitron-500";
+  line-height: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.home-sub-title {
+  display: flex;
+  width: 615px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 45px 0;
+
+  color: #999;
+  font-size: 18px;
+  font-family: "Orbitron-500";
+  line-height: 28px;
+}
+
+.home-title {
+  font-family: "Orbitron-600";
+  font-size: 72px;
+  line-height: 86px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.home-btns button {
+  width: 203px;
+  height: 70px;
+
+  background: transparent;
+  border: none;
+
+  color: #fff;
+  font-size: 18px;
+  font-family: "Orbitron-600";
+  line-height: 28px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.home-btns button:hover {
+  background: #57b8ff;
+}
+
+.home-images {
+  width: 50%;
+}
