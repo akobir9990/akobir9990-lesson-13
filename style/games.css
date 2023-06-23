@@ -1,0 +1,39 @@
+.games {
+  background: #000;
+}
+
+.games-items {
+  display: flex;
+}
+
+.game-item {
+  width: 480px;
+  height: 732px;
+  left: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.game-item h2 {
+  font-family: "Orbitron-400";
+  font-size: 48px;
+  color: white;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.game-item:nth-child(1) {
+  background-image: url(../images//game-bg-img-1.png);
+}
+.game-item:nth-child(2) {
+  background-image: url(../images//game-bg-img-2.png);
+}
+.game-item:nth-child(3) {
+  background-image: url(../images//game-bg-img-3.png);
+}
