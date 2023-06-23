@@ -92,3 +92,20 @@
 .new-era-btn:hover {
   background: #57b8ff;
 }
+
+.news-items {
+  display: flex;
+  border: 2px solid red;
+  justify-content: space-between;
+}
+
+.game-box1,
+.game-box2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px;
+}
+.game-box2 .news-item {
+  width: 50%;
+}

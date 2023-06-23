@@ -53,6 +53,10 @@
 .light * {
   color: black !important;
 }
+.light * svg > path,
+.light * svg > g > path {
+  fill: black !important;
+}
 
 /* nav end */
 
