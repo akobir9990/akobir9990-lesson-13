@@ -4,6 +4,8 @@
 
 .nav {
   padding: 20px 0;
+  position: fixed;
+  width: 100%;
 }
 .nav-container,
 .nav-list {
@@ -38,6 +40,10 @@
   border: 1px solid #fff;
   background: transparent;
   color: white;
+  cursor: pointer;
+}
+.btn-contact:hover {
+  background: #57b8ff;
 }
 
 .light {
