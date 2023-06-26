@@ -1,5 +1,5 @@
 .sponsors {
-  background: #fdd04a;
+  background: var(--secondary-color);
 }
 
 .sponsors-title {
@@ -34,6 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .sponsors-item {

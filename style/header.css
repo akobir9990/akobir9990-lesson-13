@@ -1,12 +1,24 @@
 .header {
-  background-image: linear-gradient(to right, #000000 50%, #57b8ff 50%);
+  background-image: linear-gradient(
+    to right,
+    #000000 50%,
+    var(--primary-collor) 50%
+  );
 }
 
 .nav {
-  padding: 20px 0;
+  padding: 30px 0;
   position: fixed;
   width: 100%;
+  gap: 15px;
+  background-image: linear-gradient(
+    to right,
+    black 50%,
+    var(--primary-collor) 50%
+  );
+
 }
+
 .nav-container,
 .nav-list {
   display: flex;
@@ -27,6 +39,9 @@
   align-items: center;
   gap: 24px;
 }
+#dark-light {
+  cursor: pointer;
+}
 .dark-light {
   border: none;
 }
@@ -46,17 +61,6 @@
   background: #57b8ff;
 }
 
-.light {
-  background-color: white;
-}
-
-.light * {
-  color: black !important;
-}
-.light * svg > path,
-.light * svg > g > path {
-  fill: black !important;
-}
 
 /* nav end */
 
@@ -122,4 +126,44 @@
 
 .home-images {
   width: 50%;
+}
+.nav-color-section-1 {
+  background: var(--secondary-color);
+}
+.nav-color-section-2 {
+  background: rgba(91, 91, 91, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+/* nav {
+  padding: 30px 0;
+  border: 1px solid red;
+} */
+
+.navbar-shrink {
+  padding: 20px 0;
+
+}
+
+#navbar-responsive {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-collor);
+  transition: 0.5s;
+}
+#navbar-close {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+  transform: scale(1.2);
+}
+#navbar-open {
+  display: none;
 }

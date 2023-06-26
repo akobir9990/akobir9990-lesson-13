@@ -1,0 +1,77 @@
+@media (max-width: 1330px) {
+  .home-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .home-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1310px) {
+  .news-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .game-box1,
+  .game-box2 {
+    justify-content: center;
+  }
+  .game-box1 .news-item,
+  .game-box2 .news-item {
+    width: 648px;
+    height: 702px;
+  }
+  .game-box2 .news-item img {
+    width: 648px;
+    height: auto;
+  }
+  .game-box1 .news-item img {
+    width: 100%;
+  }
+  .shop-items {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1111px) {
+  .games-items {
+    flex-direction: column;
+  }
+  .game-item {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-list {
+    display: none;
+  }
+  #navbar-open {
+    display: block;
+  }
+}
+
+@media (max-width: 750px) {
+  .shop-title {
+    width: 556px;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .shop-sub-title {
+    width: 508px;
+  }
+  .shop-item {
+    width: 502px;
+  }
+}
